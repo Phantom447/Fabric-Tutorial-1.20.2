@@ -2,6 +2,7 @@ package net.phantom.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.phantom.tutorialmod.block.ModBlocks;
 import net.phantom.tutorialmod.item.ModItemGroups;
 import net.phantom.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
