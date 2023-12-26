@@ -38,12 +38,15 @@
                   },
                   "function": "minecraft:set_count"
                 },
-                {
+                {w
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
                   "function": "minecraft:apply_bonus"
-                },
-              "name": "tutorialmod:ruby"
+                },                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "tutorialmod:raw_ruby"
             }
           ]
         }
