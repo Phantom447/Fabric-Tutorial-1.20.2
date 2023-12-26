@@ -6,6 +6,5 @@
   "ingredient": {
     "item": "tutorialmod:end_ruby_ore"
   },
-  "result": "tutorialmod:ruby",
-  "count": 2
+  "result": "tutorialmod:ruby"
 }

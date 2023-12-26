@@ -2,7 +2,9 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
 
-  "item.tutorialmod.metal_detector": "Metal Detector",
+  "item.tutorialmod.ruby_detector": "Ruby Detector",
+
+  "block.tutorialmod.sound_block": "Sound Block",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
@@ -11,5 +13,5 @@
   "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
 
-  "itemgroup.ruby": "Ruby Group"
+  "itemgroup.ruby": "Ruby Mod"
 }

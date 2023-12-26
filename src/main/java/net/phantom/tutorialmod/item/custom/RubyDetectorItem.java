@@ -8,11 +8,10 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
-import net.phantom.tutorialmod.TutorialMod;
 import net.phantom.tutorialmod.block.ModBlocks;
 
-public class MetalDetectorItem extends Item {
-    public MetalDetectorItem(Settings settings) {
+public class RubyDetectorItem extends Item {
+    public RubyDetectorItem(Settings settings) {
         super(settings);
     }
 

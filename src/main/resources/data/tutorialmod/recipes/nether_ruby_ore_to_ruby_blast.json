@@ -6,6 +6,5 @@
   "ingredient": {
     "item": "tutorialmod:nether_ruby_ore"
   },
-  "result": "tutorialmod:ruby",
-  "count": 2
+  "result": "tutorialmod:ruby"
 }
