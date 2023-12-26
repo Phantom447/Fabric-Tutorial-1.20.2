@@ -2,6 +2,7 @@ package net.phantom.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.phantom.tutorialmod.block.ModBlocks;
 import net.phantom.tutorialmod.item.ModItemGroups;
 import net.phantom.tutorialmod.item.ModItems;
@@ -14,9 +15,10 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_PILE, 160000);
 	}
 }

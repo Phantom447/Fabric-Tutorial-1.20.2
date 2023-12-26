@@ -1,8 +1,10 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
-
+  "item.tutorialmod.ruby_plate": "Ruby Plate",
   "item.tutorialmod.ruby_detector": "Ruby Detector",
+  "item.tutorialmod.tomato": "Tomato",
+  "item.tutorialmod.coal_pile": "Pile of Coal",
 
   "block.tutorialmod.sound_block": "Sound Block",
 
